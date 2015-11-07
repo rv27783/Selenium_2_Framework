@@ -55,7 +55,7 @@ public class GUI_automation_base {
 
 		// _driver = new HtmlUnitDriver(true);
 
-		_driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		_driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	/**
